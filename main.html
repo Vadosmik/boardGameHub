@@ -4,11 +4,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gra Planszowa</title>
+  <title>Menu</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="background-color: darkgray;">
+<body>
+
+  <div class="canvas">
+    <!-- GameDisplay -->
+    <div id="gameDisplay">
+      <h2>Board Game</h2>
+      <div id="gameList">
+
+        <button id="gameButton" onclick="window.location.href='/game/Warehose51/main.html';">
+          <img id="gameImage" src="/image/Warehose51.png">
+        </button>
+
+      </div>
+    </div>
+
+    <!-- Side bar -->
+    <div id="sidebar">
+
+      <!-- Player Info -->
+      <div id="playerInfoPanel">
+        <h1 id="playerName">Name</h1>
+        <img id="playerPhoto"
+          src="https://plus.unsplash.com/premium_photo-1673448391005-d65e815bd026?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGhvdG98ZW58MHx8MHx8fDA%3D">
+        <!--<img id="playerPhoto" src="https://cdn-icons-png.flaticon.com/512/8345/8345328.png"> -->
+      </div>
+
+      <!-- Friend List -->
+      <div id="friendList">
+        <h2>Friend</h2>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!--
 
   <div class="canvas">
 
@@ -19,6 +54,8 @@
     </button>
 
   </div>
+  -->
+
 
   <script src="script.js"></script>
 </body>

@@ -1,0 +1,57 @@
+body {
+    background-color: #d7d7d7;
+}
+
+#sidebar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20%;
+    height: 100%;
+    background-color: #b7b7b7;
+}
+
+#playerInfoPanel {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 10px;
+    height: 40px;
+    padding: 10px;
+}
+
+#playerPhoto {
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    right: 0;
+    top: 0;
+    margin: 10px 10px 0 0;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#friendList {
+    padding: 10px;
+}
+
+#gameDisplay {
+    width: 80%;
+}
+
+#gameButton {
+    position: relative;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    width: 275px;
+    height: 125px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+#gameImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
